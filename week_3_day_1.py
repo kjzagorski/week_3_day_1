@@ -50,10 +50,15 @@
 # # Review
 # create variables for the following :
 # 1. age
+age="17 year"
 # 2. name
+name="Karol"
 # 3. song
+song="music"
 # 4. food
+food="pizza"
 # 5. number
+number="128.5"
 
 
 # #now include the variables you just made print in the following...
@@ -68,9 +73,13 @@
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
 
+print("Once upon a time, there was a", age, "old coder named", name, ".")
 
 
+print(name, "liked to hum the song", song, "while coding. It was so annoying that their teammates would throw", food, "until", name, "would stop singing.")
 
+
+print("Still,",name , "was the best coder on the team and could write",number , "lines of code every day. Maybe",song, "was", name, "’s secret power?")
 
 
 
