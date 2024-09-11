@@ -111,13 +111,13 @@ print("Still,",name , "was the best coder on the team and could write",number , 
 # Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
 
 
-# 1st_name
-# last name
-# email@address
-# percent%
-# variable#name
-# O
-# list
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# Skibidi
+# list_of_names
 # Creating Valid Names: Create valid names for the following descriptions:
 
 
