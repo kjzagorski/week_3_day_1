@@ -50,15 +50,15 @@
 # # Review
 # create variables for the following :
 # 1. age
-age="17 year"
-# 2. name
-name="Karol"
-# 3. song
-song="music"
-# 4. food
-food="pizza"
-# 5. number
-number="128.5"
+# age="17 year"
+# # 2. name
+# name="Karol"
+# # 3. song
+# song="music"
+# # 4. food
+# food="pizza"
+# # 5. number
+# number="128.5"
 
 
 # #now include the variables you just made print in the following...
@@ -73,13 +73,13 @@ number="128.5"
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
 
-print("Once upon a time, there was a", age, "old coder named", name, ".")
+# print("Once upon a time, there was a", age, "old coder named", name, ".")
 
 
-print(name, "liked to hum the song", song, "while coding. It was so annoying that their teammates would throw", food, "until", name, "would stop singing.")
+# print(name, "liked to hum the song", song, "while coding. It was so annoying that their teammates would throw", food, "until", name, "would stop singing.")
 
 
-print("Still,",name , "was the best coder on the team and could write",number , "lines of code every day. Maybe",song, "was", name, "’s secret power?")
+# print("Still,",name , "was the best coder on the team and could write",number , "lines of code every day. Maybe",song, "was", name, "’s secret power?")
 
 
 
@@ -192,20 +192,20 @@ print("Still,",name , "was the best coder on the team and could write",number , 
 # #sqrt method
 
 
-print (2+2)
-print(2*2)
-print(2/2)
-print(2%2)
-print(2**2)
-print(max(2, 3))
-print(min(2, 3))
-print(round(2,5))
-print(abs (-2))
-print(2+10*10+3)
-from math import *
-print(floor(3.7))
-print(ceil(2.4))
-print(sqrt(16))
+# print (2+2)
+# print(2*2)
+# print(2/2)
+# print(2%2)
+# print(2**2)
+# print(max(2, 3))
+# print(min(2, 3))
+# print(round(2,5))
+# print(abs (-2))
+# print(2+10*10+3)
+# from math import *
+# print(floor(3.7))
+# print(ceil(2.4))
+# print(sqrt(16))
 ##########################################################################################
 # So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
 # # **Getting Input from users**
@@ -220,8 +220,13 @@ print(sqrt(16))
 # # find the remainder of the numbers
 # #round one number
 
-
-
+number_1= input("Pick a number!")
+number_2= input("Pick another one!")
+print("Your numbers added together=", int(number_1)+int(number_2))
+print("Your numbers when multiplied=", int(number_1)*int(number_2))
+print("This number has the higher value=", (max(int(number_1), int(number_2))))
+print("This is the remainder of your numbers=", (int(number_1)%int(number_2)))
+print("This is the numbers rounded=", (round(int(number_1),int(number_2))))
 
 
 
